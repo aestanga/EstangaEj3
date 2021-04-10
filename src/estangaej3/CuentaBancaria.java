@@ -2,13 +2,13 @@ package estangaej3;
 
 public class CuentaBancaria {
     //ATRIBUTOS
-    String nombreTitular, tipodeCuenta="";
-    String nombreclientes [] = {"Aylen Estanga","Ezequiel Perez","Luka Gomez","Alejo Sanchez","Vanesa Diaz","Ariel Gutierrez"};
-    String tipodeCuentaclientes [] = {"Caja de Ahorro","Cuenta de Nòmina","Caja de Ahorro","Cuenta Corriente","Cuenta Corriente","Cuenta Corriente"};
-    int saldo, dni=0, numcliente=0, clave=0;
-    int dniclientes [] = {21585238,19554987,13656457,29885698,42536921,25863654};
-    int saldoclientes [] = {25000,80000,15800,157960,369740,10058};
-    int claveclientes [] = {1234,2200,1478,8855,4321,1717};
+    private String nombreTitular, tipodeCuenta="";
+    private final String nombreclientes [] = {"Aylen Estanga","Ezequiel Perez","Luka Gomez","Alejo Sanchez","Vanesa Diaz","Ariel Gutierrez"};
+    private final String tipodeCuentaclientes [] = {"Caja de Ahorro","Cuenta de Nòmina","Caja de Ahorro","Cuenta Corriente","Cuenta Corriente","Cuenta Corriente"};
+    private int saldo, dni=0, numcliente=0, clave=0;
+    private final int dniclientes [] = {21585238,19554987,13656457,29885698,42536921,25863654};
+    private final int saldoclientes [] = {25000,80000,15800,157960,369740,10058};
+    private final int claveclientes [] = {1234,2200,1478,8855,4321,1717};
         
     //MÈTODOS
     public void setdni(int dni){
